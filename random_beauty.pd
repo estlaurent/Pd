@@ -1,0 +1,20 @@
+#N canvas 115 60 875 473 10;
+#X obj 414 295 random 127;
+#X obj 411 361 noteout 1;
+#X obj 411 329 makenote;
+#X obj 494 294 random 1000;
+#X obj 332 294 random 127;
+#X obj 422 257 metro 300;
+#X obj 422 232 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 275 200 Another Phantastic Random Music Generator by Me ©2018
+;
+#X connect 0 0 2 1;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;
+#X connect 3 0 2 2;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;
+#X connect 5 0 0 0;
+#X connect 5 0 3 0;
+#X connect 6 0 5 0;

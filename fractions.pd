@@ -1,0 +1,22 @@
+#N canvas 211 45 1182 772 10;
+#X obj 169 314 makenote 100 100;
+#X obj 169 344 noteout 1;
+#X obj 426 25 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 169 110 metro 1 85 permin;
+#X obj 392 313 makenote 100 100;
+#X obj 392 343 noteout 1;
+#X msg 393 262 42;
+#X obj 392 109 metro 0.428571 85 permin;
+#X msg 170 263 42;
+#X text 243 433 3 against 7;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 2 0 3 0;
+#X connect 2 0 7 0;
+#X connect 3 0 8 0;
+#X connect 4 0 5 0;
+#X connect 4 1 5 1;
+#X connect 6 0 4 0;
+#X connect 7 0 6 0;
+#X connect 8 0 0 0;
